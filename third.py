@@ -18,8 +18,8 @@ def vrat_prvocisla(maximum):
 
     return seznam
     
-if __name__ "__main__":
-    cislo = int(input(+ 1))
+if __name__=="__main__":
+    cislo = int
     prvocisla = vrat_prvocisla(cislo)
-    print(prvocislo)
+    print(prvocisla)
     
