@@ -10,16 +10,16 @@ def je_prvocislo(cislo):
 
 
 def vrat_prvocisla(maximum):
-    seznam = []
+    prvocisla = []
 
     for cislo in range(1, maximum + 1):
         if je_prvocislo(cislo):
-            seznam.append(cislo)
+            prvocisla.append(cislo)
 
-    return seznam
+    return prvocislo
     
-if __name__=="__main__":
-    cislo = int
+if __name__ == "__main__":
+    cislo = int(input("zadej maximum: "))
     prvocisla = vrat_prvocisla(cislo)
     print(prvocisla)
     
